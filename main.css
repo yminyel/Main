@@ -3,7 +3,7 @@
     padding: 0;
 }
 #preloader{
-    background: black url(loader.gif) no-repeat center; 
+    background: #000 url(loader.gif) no-repeat center; 
     background-size: 50%;
     position: fixed;
     top: 0;
