@@ -27,6 +27,8 @@ function checker(){
 function nextVideo(){
     if(vidPlaying< vids.length){
         vidPlaying++;
+    } else{
+        loader.style.display = "none";
     }
     myVideo.src = "videos/" + vids[vidPlaying];
     vidStatus = true;
