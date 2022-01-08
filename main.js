@@ -28,7 +28,7 @@ function nextVideo(){
     if(vidPlaying< vids.length){
         vidPlaying++;
     }
-    myVideo.src = "videos/" + vids[vidPlaying];
+    myVideo.src = "Videos/" + vids[vidPlaying];
     vidStatus = true;
 }
 
