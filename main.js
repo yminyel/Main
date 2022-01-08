@@ -11,7 +11,7 @@ var loader = document.getElementById('preloader');
 myVideo.muted = 'false'; 
 myVideo.addEventListener('ended', vidEnded)
 
-const vids = ["1.mp4","2.mp4","3.MP4"]
+const vids = ["1.mp4","2.mp4","3.mp4", "4.mp4","5.mp4"]
 let vidPlaying = 0;
 
 function vidEnded(){
